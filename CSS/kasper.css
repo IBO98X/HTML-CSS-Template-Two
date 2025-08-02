@@ -281,6 +281,8 @@ header nav .form i {
 /* End Landing */
 /* Start Go Above Button */
 .go-above-button {
+  text-decoration: none;
+  color: black;
   position: fixed;
   width: 40px;
   height: 40px;
@@ -293,10 +295,6 @@ header nav .form i {
   cursor: pointer;
   border: 2px solid var(--main-color, #19c8fa);
   z-index: 3;
-}
-.go-above-button a {
-  text-decoration: none;
-  color: black;
 }
 /* End Go Above Button */
 /* Start Services */
