@@ -215,6 +215,11 @@ header nav .form i {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 767px) {
+  .landing .text {
+    transform: translateY(-45%);
+  }
+}
 .landing .text .content {
   max-width: 500px;
 }
@@ -261,13 +266,13 @@ header nav .form i {
   transform: translateX(-50%);
   display: flex;
   cursor: pointer;
+  gap: 10px;
 }
 .landing .bullets li {
   width: 20px;
   height: 20px;
   border: 1px solid white;
   border-radius: 50%;
-  margin-left: 10px;
 }
 .landing .bullets li.active {
   background-color: var(--main-color, #19c8fa);
